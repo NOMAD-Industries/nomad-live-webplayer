@@ -4,16 +4,12 @@
   <meta charset="UTF-8">
   <title>NOMAD Live Player</title>
   
-  <link href="http://vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
+  <link type="text/css" href="http://vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
   
-  <script src="http://vjs.zencdn.net/4.11/video.js"></script>
-
-  <!-- Loads local video.js if the CDN is offline -->
-  <script>window.videojs || document.write('<script src="./bower_components/videojs/dist/video-js/video.js"><\/script>')</script>
-  <script>window.videojs || document.write('<link href="./bower_components/videojs/dist/video-js/video-js.min.css" rel="stylesheet" type="text/css">')</script>
+  <script type="text/javascript" src="http://vjs.zencdn.net/4.11/video.js"></script>
 
   <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
-  <script>
+  <script type="text/javascript">
     videojs.options.flash.swf = "video-js.swf";
   </script>
 
